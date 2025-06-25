@@ -31,10 +31,7 @@ INSERT INTO questions (question, option_a, option_b, option_c, option_d, correct
 ('What is the capital of France?', 'Berlin', 'London', 'Paris', 'Madrid', 'C'),
 ('Which language is used for data science?', 'Java', 'Python', 'C++', 'HTML', 'B'),
 ('Who invented the light bulb?', 'Newton', 'Edison', 'Einstein', 'Tesla', 'B');
-CREATE USER 'quizuser'@'localhost' IDENTIFIED BY 'QuizPassword123';
-GRANT ALL PRIVILEGES ON quiz_app.* TO 'quizuser'@'localhost';
-FLUSH PRIVILEGES;
-select * from scores;
+
 
 
 
